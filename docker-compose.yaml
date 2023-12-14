@@ -1,6 +1,6 @@
 version: '3'
 services:
-  mysql.test:
+  mysql.8.0:
     image: 'mysql/mysql-server:${TAG}'
     ports:
       - '${FORWARD_DB_PORT:-3306}:3306'
